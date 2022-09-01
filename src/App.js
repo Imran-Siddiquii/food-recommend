@@ -58,8 +58,15 @@ export default function App() {
   };
   return (
     <div className="App">
-      <div style={{ border: "1px solid lightgray", padding: "10px" }}>
-        <h3>Recommned Food by me</h3>
+      <div
+        style={{
+          border: "1px solid lightgray",
+          padding: "15px",
+          borderRadius: "3px"
+        }}
+      >
+        <h3>Recommneded Food by Imran</h3>
+        <br />
         <p>
           I would like to recommend these food to you if you ever been in these
           state
@@ -71,7 +78,6 @@ export default function App() {
             key={item}
             style={{
               padding: "8px",
-
               margin: "8px",
               fontSize: "1rem",
               backgroundColor: "orange",
